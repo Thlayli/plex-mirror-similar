@@ -9,4 +9,4 @@ Set the following at runtime: e.g. "plex-mirror-similar.py -range=12h"
 - -unlink=string (optional artist to remove from all similar lists)
 
 Customize the following in the script file:
-- tags_to_rename (a list of find-replace pairs, e.g. [['old_one','new_one'],['old_two','new_two]])
+- tags_to_rename (a list of find-replace pairs, e.g. [['old_one','new_one'],['old_two','new_two]], these will be replaced in all similar artist tag lists)
