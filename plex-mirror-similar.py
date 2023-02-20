@@ -64,7 +64,7 @@ try:
         referenced_artists.add(full_item.title)
         for sa in full_item.similar:
           # tqdm.write('-'+str(sa.tag))
-          tag = sa.tag.replace("Similar:/library/sections/"+library_number+":","")
+          tag = sa.tag.replace("Similar:/library/sections/"+str(library_number)+":","")
           # for ts in library.search(sa.tag):
             # tqdm.write('--'+ts.title)
           if not tag in [v for (k,v) in duplicate_artists.items()]:
